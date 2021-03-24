@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Karibu (na Hakuna Matata)</title>
+  <link rel="stylesheet" href="resetz.css">
+  <link rel="stylesheet" href="sylez.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Oot&Aboot</a>
+        </li>
+        <li>
+          <a href="#">Porto</a>
+        </li>
+        <li>
+          <a href="#">Touche</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header">
+      <h1>Willkommen</h1>
+    </header>
+    <main>
+      <section class="posts">
+        <article class="post">
+          <h3>What is this there darn project about anyways y'all?</h3>
+          <p>What is this project about?...  Geography of course!  We love to learn about the incredible cities that dot our great and glorious home, planet earth!  What a fantabulous place to study!  
+              Hold on to your seat because you are about to be taken on a roller coaster of emotion, joy, and excitement as we explore the geographical differences in our comparison of over 500 cities througout the world. 
+          </p>
+        </article>
+        <article class="post">
+          <h3>What does this project contain?</h3>
+          <p>What does this project contain... Glad you asked!  This project MUSK contain:
+              *7 pages total, including:
+            * A #langingpage (which you are currently on) and on this here said landing page, where, again, you are currently reading the world currently, here we MUSK have:
+              * An explanation of the project(see the paragraph above in case your wild eyes are jumpaging about).
+              * Links to each visualizations page (do you see those amazing buttons up there?  Yes?  No?  There are four of them.  They are at the top.  Yes... those.  Good.  Those buttons are the links. You can click them! If you ever need to get back this page just click "Home"... you can think of the "Home" button like the ruby slippers Dorothy has in Wizard of Oz.) 
+              * A sidebar containing preview images of each plot, and clicking an image should take the user to that visualization. (The sidebar is great, don't you think? Where is it? It's the bar... on the side.. like a navigation bar at the top- except it's on the side... yes, there, on the left.)
+          </p>
+        </article>
+        <article class="post">
+          <h3>Visulazations!</h3>
+          <p> * Four #visualization-pages, each with (now let's get down do business):
+            * A descriptive title and heading tag.
+            * The plot/visualization itself for the selected comparison.
+            * A paragraph describing the plot and its significance.
+          </p>
+        </article>
+        <article class="post">
+          <h3>Comparisons!</h3>
+          <p>* A #comparisons-page that:
+            * Contains all of the visualizations on the same page so we can easily visually compare them.
+            * There is utilization of a Bootstrap grid for the visualizations.
+              * (Media Query issue coming) The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+          </p>
+        </article>
+        <article class="post">
+          <h3>Data!.</h3>
+          <p>* A #data-page that:
+            * Displays a responsive table containing the data used in the visualizations.
+              * The table must be a bootstrap table component. 
+              [Hint (Ooohhh! Fun! We love hints!)] 
+              (https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
+              * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. 
+              Try using a tool you already know, pandas. Pandas has a nifty method appropriately called `to_html` that allows you to generate a HTML table from a pandas dataframe. 
+              See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
+          </p>
+        </article>
+        <article class="post">
+          <h3>More Musks!</h3>
+          <p>The website MUSK, at the top of every page, have a navigation menu that:
+            * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
+            * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
+            * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
+            * Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
+            
+            Finally, the website must be deployed to GitHub pages.
+            
+            When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
+            
+            Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
+             </p> 
+            </article>
+            <article class="post">
+            <h3>Considerations! (aka Hmms...)</h3>
+            <p> ### Considerations
+                * You may use the [weather data](Resources/cities.csv) or choose another dataset. 
+                Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
+                * You must use Bootstrap. This includes using the Bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
+                * You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
+                * Be sure to use a CSS media query for the navigation menu.
+                * Be sure your website works at all window widths/sizes.
+                * Feel free to take some liberty in the visual aspects, but keep the core functionality the same. 
+            </p>
+        </article>
+      </section>
+    </main>
+  </div>
+  
+</body>
+
+</html>
+
+</html> 
