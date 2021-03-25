@@ -2,10 +2,12 @@
 body {
     background: #c6ddec;
   }
-  
+ /* Giving the header some actions 
+ 
   h1 {
     font-size: 80px;
   }
+  using */
   
   h3 {
     font-size: 30px;
@@ -34,13 +36,14 @@ body {
     text-decoration: none;
   }
   
-  /* Styling the header, giving it a height, a background color, and some top padding */
+  /* Styling the header, giving it a height, a background color, 
   .header {
     height: 200px;
     padding-top: 20px;
     background: #f3f4f5;
   }
-  
+    and some top padding */
+
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
   .header h1 {
     padding: 60px;
@@ -56,7 +59,7 @@ body {
     margin-left: 100px;
   }
 
-  /* Giving our ordered list some padding */
+  /* Giving our list some padding */
   .ol {
     margin-top: 50px;
     margin-right: 100px;
