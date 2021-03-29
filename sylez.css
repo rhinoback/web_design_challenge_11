@@ -1,13 +1,21 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+
 body {
     background: #c6ddec;
   }
- /* Giving the header some actions 
  
   h1 {
-    font-size: 80px;
+    outline-color: thistle;
+    height: 40;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: white;
+    background-color: rgba(5, 147, 5, 0.516);
   }
-  using */
   
   h3 {
     font-size: 30px;
@@ -74,3 +82,4 @@ body {
   img {
     box-shadow:10px 10px 5px black;
   }
+  
